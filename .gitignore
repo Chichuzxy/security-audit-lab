@@ -1,0 +1,21 @@
+# deps
+node_modules/
+__pycache__/
+*.pyc
+
+# foundry / hardhat build output
+out/
+cache/
+broadcast/
+artifacts/
+
+# secrets —— 任何情况下都不提交
+.env
+.env.*
+*.key
+*.pem
+private-key*
+
+# os
+.DS_Store
+Thumbs.db

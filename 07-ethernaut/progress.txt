@@ -1,0 +1,10 @@
+Hello Ethernaut
+ 输入 help() 获得web3加载项
+ => 实例地址0xB39bB75e51CFeEEd11751e9FCaAF61b8De192b50
+ => 关卡地址0x7E0f53981657345B31C59aC44e9c21631Ce710c7
+t(-.-t) 正在从关卡获得新的实例... <  < <<请稍等>> >  >
+ => 实例地址0x5115c6DA831594D38bC8002062330954a63AdCA1
+
+Fallback
+ 输入 help() 获得web3加载项
+ => 关卡地址0x3c34A342b2aF5e885FcaA3800dB5B205fEfa3ffB

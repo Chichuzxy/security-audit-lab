@@ -1,0 +1,12 @@
+npm notice run ts-contract-interact@1.0.0 npx
+npm notice run tsx query_contract.ts
+========================================================
+RPC: https://ethereum.publicnode.com
+时间: 2026/9/4 20:06:13
+[1] 最新区块高度: 25903845
+[2] 合约 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
+    名称: USD Coin (USDC), 精度: 6
+[3] 地址 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045
+    USDC 余额: 37.192124
+    ETH 余额: 6.712150161831460931
+========================================================

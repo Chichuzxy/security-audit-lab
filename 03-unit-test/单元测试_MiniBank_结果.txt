@@ -1,0 +1,24 @@
+npm notice run hardhat-example@1.0.0 npx
+npm notice run hardhat test test/minibank.test.js
+◇ injected env (3) from .env // tip: ⌘ suppress logs { quiet: true }
+
+
+  MiniBank 单元测试
+    部署
+      ✔ owner 应该是部署者 (715ms)
+      ✔ 初始总余额应为 0
+    存款
+      ✔ 存款后余额增加，合约总余额增加
+      ✔ 存款金额必须大于 0
+      ✔ 存款时应发出 Deposit 事件
+    取款
+      ✔ 取款后余额减少，ETH 转回用户
+      ✔ 余额不足时取款应被回滚
+      ✔ 取款金额必须大于 0
+      ✔ 取款时应发出 Withdraw 事件
+    多人存取
+      ✔ 多人存款互不影响，各自余额独立
+
+
+  10 passing (827ms)
+

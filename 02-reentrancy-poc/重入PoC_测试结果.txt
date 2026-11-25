@@ -1,0 +1,14 @@
+npm notice run hardhat-example@1.0.0 npx
+npm notice run hardhat test test/reentrancy.test.js
+◇ injected env (3) from .env // tip: ⌘ override existing { override: true }
+
+
+  重入攻击 PoC
+   [漏洞版] 银行余额: 2 ETH -> 0 | 攻击合约余额: 3.0 ETH
+    ✔ 1. 漏洞版：攻击者用 1 ETH 榨干银行 3 ETH（攻击成功）
+   [修复版] 攻击被回滚，银行余额: 1.0 ETH (受害者资金安全)
+    ✔ 2. 修复版：CEI 模式后攻击失败，攻击交易被回滚，受害者资金安全
+
+
+  2 passing (587ms)
+
